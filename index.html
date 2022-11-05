@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav
+      class="bg-slate-600 text-slate-100 flex justify-between font-mono font-bold text-4xl"
+    >
+      <img
+        src="https://randomuser.me/api/portraits/med/men/75.jpg"
+        alt=""
+        class="w-max rounded-xl mx-5"
+      />
+      <ul class="flex py-3 px-96 space-x-10">
+        <li
+          class="cursor-pointer sm:text-xs base:text-sm text-lg:base hover:underline"
+        >
+          Home
+        </li>
+        <li class="cursor-pointer hover:underline">Register</li>
+        <li class="cursor-pointer hover:underline">ContactUs</li>
+      </ul>
+      <button class="bg-slate-600 rounded-full">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 320 512"
+          class="wyellow-7 m-3 animate-bounce h-7"
+          style="color: white"
+        >
+          <!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+          <path
+            fill="currentColor"
+            d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+          />
+        </svg>
+      </button>
+
+      <button class="bg-slate-600 rounded-full">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 448 512"
+          class="w-7 m-3 animate-bounce h-7"
+          style="color: white"
+        >
+          <!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+          <path
+            fill="currentColor"
+            d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+          />
+        </svg>
+      </button>
+
+      <button class="rounded-full hover: drop-shadow-sm">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 448 512"
+          class="w-7 m-3 animate-bounce h-7"
+          style="color: white"
+        >
+          <!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+          <path
+            fill="currentColor"
+            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+          />
+        </svg>
+      </button>
+
+      <button
+        class="bg-white font-serif xs-text-xs mx-3 my-3 hover:text-green-700 hover:bg-gray-200 p-1 sm:text-xs base:text-sm text-lg:base rounded-2xl text-slate-600"
+      >
+        Login
+      </button>
+    </nav>
+    <div
+      class="w-full h-screen bg-center bg-cover bg-no-repeat"
+      style="background-image: url('research.png'); align-items: center"
+    >
+      <h1
+        class="text-8xl font-bold p-80 pb-0 font-serif text-yellow-700 sm:text-xs md:text-sm hover:backdrop:blur"
+      >
+        GPRO Congress 2023
+      </h1>
+      <p
+        class="text-yellow-700 text-4xl mx-auto px-60 sm-text-sm font-bold font-serif"
+      >
+        I must explain to you how all mistaken idea of denouncing pleasure and
+        praising pain was born and i will give you a complete account.
+      </p>
+
+      <div class="border-b-4">
+        <p
+          class="text-yellow-700 text-3xl py-4 mx-auto px-96 font-bold font-serif"
+        >
+          2108 Selah Way Battleboro, VT05301 | 20 September 2022
+        </p>
+      </div>
+    </div>
+    <div
+      class="w-full h-screen bg-center bg-cover bg-no-repeat"
+      style="background-image: url('dev.gif'); align-items: center"
+    >
+      <h1 class="text-6xl font-bold p-60 pb-0 font-serif sm:text-xs md:text-sm">
+        Dr.Ramesh Richard
+      </h1>
+      <p class="text-4xl mx-auto px-60 font-bold font-serif">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi aliquid
+        officiis sunt tempora molestias, aliquam repellat quibusdam soluta optio
+        aperiam!
+      </p>
+      <div class="px-60">
+        <button
+          class="bg-black text-white p-4 font-serif xs-text-xs mx-3 my-3 hover:text-green-700 hover:bg-gray-200 sm:text-xs base:text-sm text-lg:base rounded-2xl"
+        >
+          Register Now
+        </button>
+        <button
+          class="bg-black text-white font-serif xs-text-xs mx-3 my-3 hover:text-green-700 hover:bg-gray-200 sm:text-xs base:text-sm text-lg:base rounded-2xl p-4"
+        >
+          Know More
+        </button>
+      </div>
+    </div>
+    <div class="py-40">
+      <h1 class="text-6xl px-96 py-0 m-24 font-bold font-serif underline">
+        Why You Should Attend ?
+      </h1>
+      <div class="flex space-x-42 ">
+        <div class="card p-10  text-3xl" style="width: 42rem">
+          <div class="card-body hover:text-yellow-600 border-solid">
+            <h5 class="card-title">Card title</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div class="card p-10 text-3xl" style="width: 42rem">
+          <div class="card-body hover:text-yellow-600 border-solid">
+            <h5 class="card-title">Card title</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div class="card p-10 text-3xl" style="width: 42rem">
+          <div class="card-body hover:text-yellow-600 border-solid">
+            <h5 class="card-title">Card title</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-yellow-400 flex">
+      <div class="flex space-x-16">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="ionicon h-20 bg-white p-4 m-5 rounded-full"
+          viewBox="0 0 512 512"
+        >
+          <title>Trophy</title>
+          <path
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="32"
+            d="M176 464h160M256 464V336M384 224c0-50.64-.08-134.63-.12-160a16 16 0 00-16-16l-223.79.26a16 16 0 00-16 15.95c0 30.58-.13 129.17-.13 159.79 0 64.28 83 112 128 112S384 288.28 384 224z"
+          />
+          <path
+            d="M128 96H48v16c0 55.22 33.55 112 80 112M384 96h80v16c0 55.22-33.55 112-80 112"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="32"
+          />
+        </svg>
+        <p class="text-2xl px-2 py-12 font-bold font-serif">
+          1556+ Award Winnings
+        </p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="ionicon h-20 bg-white p-4 m-5 rounded-full"
+          viewBox="0 0 512 512"
+        >
+          <title>Trophy</title>
+          <path
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="32"
+            d="M176 464h160M256 464V336M384 224c0-50.64-.08-134.63-.12-160a16 16 0 00-16-16l-223.79.26a16 16 0 00-16 15.95c0 30.58-.13 129.17-.13 159.79 0 64.28 83 112 128 112S384 288.28 384 224z"
+          />
+          <path
+            d="M128 96H48v16c0 55.22 33.55 112 80 112M384 96h80v16c0 55.22-33.55 112-80 112"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="32"
+          />
+        </svg>
+        <p class="text-2xl px-2 py-12 font-bold font-serif">
+          456+ Award Winnings
+        </p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="ionicon h-20 bg-white p-4 m-5 rounded-full"
+          viewBox="0 0 512 512"
+        >
+          <title>Trophy</title>
+          <path
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="32"
+            d="M176 464h160M256 464V336M384 224c0-50.64-.08-134.63-.12-160a16 16 0 00-16-16l-223.79.26a16 16 0 00-16 15.95c0 30.58-.13 129.17-.13 159.79 0 64.28 83 112 128 112S384 288.28 384 224z"
+          />
+          <path
+            d="M128 96H48v16c0 55.22 33.55 112 80 112M384 96h80v16c0 55.22-33.55 112-80 112"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="32"
+          />
+        </svg>
+        <p class="text-2xl px-2 py-12 font-bold font-serif">
+          5106+ Acheivements
+        </p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="ionicon h-20 bg-white p-4 m-5 rounded-full"
+          viewBox="0 0 512 512"
+        >
+          <title>Trophy</title>
+          <path
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="32"
+            d="M176 464h160M256 464V336M384 224c0-50.64-.08-134.63-.12-160a16 16 0 00-16-16l-223.79.26a16 16 0 00-16 15.95c0 30.58-.13 129.17-.13 159.79 0 64.28 83 112 128 112S384 288.28 384 224z"
+          />
+          <path
+            d="M128 96H48v16c0 55.22 33.55 112 80 112M384 96h80v16c0 55.22-33.55 112-80 112"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="32"
+          />
+        </svg>
+        <p class="text-2xl px-2 py-12 font-bold font-serif">
+          5106+ Acheivements
+        </p>
+      </div>
+    </div>
+
+    <div>
+      <h1 class="text-5xl m-10 py-0 font-bold font-serif underline">Tentative Speakers:</h1>
+      <div class="flex">
+      <p class="text-xl mx-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      </p>
+      
+      <img src="download.jpg" alt="" class="w-60vw h-96 p-6">
+    </div>
+    <button class="bg-yellow-400 text-xl m-9 hover:bg-black hover:text-yellow-400 font-bold rounded-3xl px-2 py-5">Join Now</button>
+
+    </div>
+
+    
+      <div class="bg-slate-700 px-52 ">
+        <p class="text-5xl py-40 px-96 text-white underline font-serif font-bold"> GPRO Congress 2017</p>
+        <video src="VID-20200506-WA0011.mp4" class="w-600 mx-96 py-10 rounded-3xl" controls></video>
+      </div>
+    
+      <div class="bg-yellow-500 py-10 rounded-3xl text-black m-20">
+        
+          <h1 class=" font-bold px-40 py-20 text-5xl">Lorem ipsum dolor sit elit. </h1> 
+          
+        
+        <div class="flex space-x-10">
+           <p class="text-xl px-36  "> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <button class="bg-gray-600 text-xl rounded-2xl hover:text-yellow-500 text-white font-bold py-1 px-3 m-10">Register Now</button>
+        </div>
+        </div>
+    
+  </body>
+</html>
